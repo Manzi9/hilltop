@@ -52,9 +52,6 @@ export default function Header() {
           >
             CONTACT
           </Link>
-          <Link href="/shop" className="hover:text-gray-300 transition-colors">
-            SHOP
-          </Link>
         </nav>
 
         {/* Mobile Navigation */}
@@ -95,13 +92,6 @@ export default function Header() {
                 onClick={() => setIsMenuOpen(false)}
               >
                 CONTACT
-              </Link>
-              <Link
-                href="/shop"
-                className="hover:text-gray-300 transition-colors w-full text-center py-2"
-                onClick={() => setIsMenuOpen(false)}
-              >
-                SHOP
               </Link>
             </nav>
           </div>

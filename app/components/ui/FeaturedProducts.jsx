@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import Link from "next/link";
-import { ShoppingBag } from "lucide-react";
+import { Info } from "lucide-react";
 
 const products = [
   {
@@ -56,11 +56,11 @@ export default function FeaturedProducts() {
                 <div className="flex justify-between items-center">
                   <span className="text-lg font-bold">{product.price}</span>
                   <Link
-                    href="/shop"
+                    href="/menu"
                     className="flex items-center bg-black text-white px-4 py-2 hover:bg-gray-800 transition-colors"
                   >
-                    <ShoppingBag size={16} className="mr-2" />
-                    Shop
+                    <Info size={16} className="mr-2" />
+                    Learn More
                   </Link>
                 </div>
               </div>
