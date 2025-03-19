@@ -21,12 +21,12 @@ export default function Hero({ title, subtitle }) {
       </div>
 
       {/* Content */}
-      <div className="relative z-10 flex flex-col items-center justify-center h-full text-white text-center px-4">
-        <h1 className="font-playfair text-5xl md:text-7xl font-bold mb-6 tracking-wide leading-tight">
+      <div className="relative z-10 flex flex-col items-center justify-center h-full text-orange-200 text-center px-4">
+        <h1 className="font-serif text-5xl md:text-7xl font-bold mb-6 tracking-wide leading-tight">
           {title || "HILLTOP COFFEE"}
         </h1>
         <div className="w-24 h-0.5 bg-white mb-6"></div>
-        <p className="text-xl md:text-2xl max-w-2xl font-light tracking-wider">
+        <p className="text-xl md:text-2xl max-w-2xl font-light font-serif tracking-wider">
           {subtitle || "Artisanal coffee in a minimalist atmosphere"}
         </p>
       </div>
