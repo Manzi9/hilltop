@@ -12,11 +12,10 @@ export default function Home() {
       <Hero
         title="HILLTOP COFFEE"
         subtitle="Artisanal coffee in a minimalist atmosphere"
-        imageUrl="https://picsum.photos/id/1060/1920/1080"
       />
       <AboutSection />
       <FeaturedProducts />
-      <Testimonials />
+      {/* <Testimonials /> */}
       <Newsletter />
     </>
   );
