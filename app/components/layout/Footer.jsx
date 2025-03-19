@@ -74,7 +74,18 @@ export default function Footer() {
 
         {/* Copyright */}
         <div className="mt-8 pt-8 border-t border-gray-800 text-center">
-          <p>&copy; {currentYear} HILLTOP COFFEE. All rights reserved.</p>
+          <p>
+            &copy; {new Date().getFullYear()} HILLTOP COFFEE. Developed by{" "}
+            <a
+              href="https://manzi.dev"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-white hover:text-teal-200 transition-colors"
+            >
+              Manzi
+            </a>
+            .
+          </p>
         </div>
       </div>
     </footer>
