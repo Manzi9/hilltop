@@ -14,7 +14,7 @@ export default function Footer() {
   const currentYear = new Date().getFullYear();
 
   return (
-    <footer className="bg-black text-white py-12">
+    <footer className="bg-black text-orange-100 py-12">
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {/* Contact Information */}
@@ -80,7 +80,7 @@ export default function Footer() {
               href="https://manzi.dev"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-white hover:text-teal-200 transition-colors"
+              className="text-orange-100 hover:text-white transition-colors"
             >
               Manzi
             </a>

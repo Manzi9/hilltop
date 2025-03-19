@@ -12,7 +12,7 @@ export default function Header() {
   };
 
   return (
-    <header className="fixed top-0 left-0 w-full bg-black/70 backdrop-blur-md text-orange-200 z-50">
+    <header className="fixed top-0 left-0 w-full bg-black/70 text-orange-200 z-50 backdrop-blur">
       <div className="container mx-auto px-4 py-4 flex justify-between items-center">
         <div className="logo">
           <Link href="/" className="text-2xl font-bold tracking-wider">
@@ -65,7 +65,7 @@ export default function Header() {
 
         {/* Mobile Navigation */}
         {isMenuOpen && (
-          <div className="md:hidden absolute top-full left-0 w-full bg-black/75 backdrop-blur-md py-4">
+          <div className="md:hidden absolute top-full left-0 w-full bg-black/75 py-4">
             <nav className="flex flex-col items-center space-y-4">
               <Link
                 href="/menu"
