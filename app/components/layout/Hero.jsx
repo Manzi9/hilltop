@@ -27,7 +27,11 @@ export default function Hero({ title, subtitle }) {
           alt="Hilltop Coffee + Kitchen"
           width={384}
           height={384}
-          className="mb-6 invert"
+          className="mb-6"
+          style={{
+            filter:
+              "brightness(0) saturate(100%) invert(80%) sepia(19%) saturate(895%) hue-rotate(322deg) brightness(101%) contrast(102%)",
+          }}
         />
         <div className="w-24 h-0.5 bg-white mb-6"></div>
       </div>
