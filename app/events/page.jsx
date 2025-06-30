@@ -509,18 +509,18 @@ export default function EventsPage() {
     },
     {
       id: 2,
-      title: "Live Jazz Night",
+      title: "Live Jazz Day",
       date: "2023-06-18",
-      time: "7:00 PM - 10:00 PM",
+      time: "12:00 PM - 10:00 PM",
       location: "Hilltop Coffee - Covent Garden",
       category: "Music",
       description:
-        "Enjoy an evening of live jazz music while sipping on our signature coffee cocktails.",
+        "Enjoy an afternoon of live jazz music while sipping on our signature coffee cocktails.",
       longDescription:
-        "Our monthly jazz night features local musicians in an intimate setting. The perfect way to unwind with friends while enjoying our special menu of coffee-based cocktails and small plates.",
+        "Our monthly jazz day features local musicians in an intimate setting. The perfect way to unwind with friends while enjoying our special menu of coffee-based cocktails and small plates.",
       price: "£10 entry",
       ticketInfo: "First drink included with entry",
-      image: "https://picsum.photos/id/1062/800/600",
+      image: "/images/jazz-poster.jpg",
     },
     {
       id: 3,
@@ -550,7 +550,7 @@ export default function EventsPage() {
         "Give back to our community by participating in our quarterly clean-up day. We'll provide all cleaning supplies, plus free coffee and pastries for volunteers. A great way to meet neighbors and make a difference.",
       price: "Free",
       ticketInfo: "Registration required",
-      image: "https://picsum.photos/id/1048/800/600",
+      image: "/images/cleaning.jpg",
     },
     {
       id: 5,
@@ -565,7 +565,7 @@ export default function EventsPage() {
         "This hands-on workshop will teach you the fundamentals of latte art. You'll practice techniques for creating hearts, rosettas, and tulips. Suitable for beginners and intermediate levels.",
       price: "£40 per person",
       ticketInfo: "All equipment provided",
-      image: "https://picsum.photos/id/1074/800/600",
+      image: "/images/latte-art-1.jpg",
     },
   ];
 
