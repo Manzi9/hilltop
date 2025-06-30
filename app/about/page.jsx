@@ -108,7 +108,7 @@ export default function AboutPage() {
             <div className="text-center">
               <div className="relative h-64 w-full mb-4 rounded-lg overflow-hidden">
                 <Image
-                  src="https://picsum.photos/id/1062/400/400"
+                  src="/images/barista-1.jpg"
                   alt="Team member"
                   fill
                   className="object-cover"
@@ -121,7 +121,7 @@ export default function AboutPage() {
             <div className="text-center">
               <div className="relative h-64 w-full mb-4 rounded-lg overflow-hidden">
                 <Image
-                  src="https://picsum.photos/id/1074/400/400"
+                  src="/images/barista-2.jpg"
                   alt="Team member"
                   fill
                   className="object-cover"
@@ -134,7 +134,7 @@ export default function AboutPage() {
             <div className="text-center">
               <div className="relative h-64 w-full mb-4 rounded-lg overflow-hidden">
                 <Image
-                  src="https://picsum.photos/id/1071/400/400"
+                  src="/images/barista-3.jpg"
                   alt="Team member"
                   fill
                   className="object-cover"
